@@ -1,0 +1,73 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&display=swap');
+
+
+.background {
+  background-image: url(./assets/Group\ 98.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body{
+  font-family: 'DM Sans', sans-serif;
+}
+
+.card1 {
+  background: #fff;
+  backdrop-filter: blur(2px);
+}
+
+.card2 {
+  background: #edffe9;
+  backdrop-filter: blur(2px);
+}
+
+.card3 {
+  background: #ffeed4;
+  backdrop-filter: blur(2px);
+}
+
+.close{
+  height: 20%;
+}
+
+a[aria-current="page"]{
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.scaled{
+  transform: scale(2, 2);
+}
+
+@media screen and (max-width:500px) {
+  body{
+    width: 140vw;
+  }
+}
+
+@media screen and (max-width:390px) {
+  body{
+    width: 180vw;
+  }
+}
+
+@media screen and (max-width:1675px) {
+  body{
+    width: 140vw;
+  }
+}
+
+@media screen and (max-width:370px) {
+  body{
+    width: 180vw;
+  }
+}
+
+@media screen and (max-width:792px) {
+  .select{
+    position: relative;
+    top: 5rem;
+    right: 10%;
+  }
+}
